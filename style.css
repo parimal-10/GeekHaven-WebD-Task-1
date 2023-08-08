@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  transition: background-color 0.3s ease;
+}
+
+
+
+
+
+
+/* Light Mode style */
+body.light-mode {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+
+
+
+
+
+/* Dark Mode style */
+body.dark-mode {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+
+
+
+
+/* Start here */
+#heading{
+  font-size: 35px;
+}
+
+#toggleButton{
+  margin-left: 93.2%;
+}
+
+.accordion {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.accordion-header {
+  border: 2px solid black;
+  padding-bottom: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  cursor: pointer;
+  padding: 10px;
+  width: 98%;
+  text-align: left;
+  transition: 0.4s;
+  margin-bottom: 20px;
+}
+
+.accordion-content {
+  display: none;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+.chapter{
+  cursor: pointer;
+  transition: 0.4s;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.question-container{
+  display:none;
+}
+
+h3{
+  margin-left: 20px;
+}
+
+.progress-percentage {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  font-size: 18px;
+}
+
+.progress-bar-container {
+  width: 30%;
+  height: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 10px;
+}
+
+
+
+
+
+/* Additional styles for dark mode */
+body.dark-mode .accordion-header {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+body.dark-mode .accordion-content {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+body.dark-mode a{
+  color: #0F82AF;
+}
+
+
+
